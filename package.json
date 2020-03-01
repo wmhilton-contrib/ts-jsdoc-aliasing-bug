@@ -1,0 +1,27 @@
+{
+  "name": "ts-jsdoc-aliasing-bug",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "yarn build-a; yarn build-b",
+    "build-a": "tsc -p declaration-a.tsconfig.json",
+    "build-b": "tsc -p declaration-b.tsconfig.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wmhilton-contrib/ts-jsdoc-aliasing-bug.git"
+  },
+  "keywords": [],
+  "author": "William Hilton <wmhilton@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wmhilton-contrib/ts-jsdoc-aliasing-bug/issues"
+  },
+  "homepage": "https://github.com/wmhilton-contrib/ts-jsdoc-aliasing-bug#readme",
+  "dependencies": {
+    "@types/node": "^13.7.7",
+    "typescript": "^3.8.3"
+  }
+}
